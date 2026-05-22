@@ -1,130 +1,187 @@
-# ✨ HolyTrinity
+# 🚀 Gasless Badge
 
-> A futuristic gasless Web3 event badge platform powered by UGF on Base Sepolia.
+> Mint personalized NFT event badges completely gas-free using UGF on Base Sepolia.
 
-HolyTrinity is a modern decentralized application that allows users to mint personalized NFT event badges completely gas-free. Built with React, Solidity, UGF, and Base Sepolia, the platform delivers a smooth Web3 onboarding experience where users never need ETH to interact with the blockchain.
+Gasless Badge is a modern Web3 event badge platform that allows users to mint fully on-chain NFT badges without needing ETH for gas fees. Built with React, Solidity, UGF, and Base Sepolia, the platform delivers a seamless onboarding experience for both crypto-native and non-crypto users.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Base-Sepolia-0052FF?style=for-the-badge&logo=coinbase&logoColor=white" />
-  <img src="https://img.shields.io/badge/UGF-Integrated-FF6B35?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/UGF-Gasless-FF6B35?style=for-the-badge" />
   <img src="https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
   <img src="https://img.shields.io/badge/Solidity-0.8.24-363636?style=for-the-badge&logo=solidity" />
-  <img src="https://img.shields.io/badge/Gasless-Transactions-22C55E?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/ERC721-NFT-22C55E?style=for-the-badge" />
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" />
 </p>
 
 <p align="center">
   <a href="#-live-demo">Live Demo</a> ·
   <a href="#-features">Features</a> ·
-  <a href="#-project-structure">Structure</a> ·
+  <a href="#-tech-stack">Tech Stack</a> ·
+  <a href="#-project-structure">Project Structure</a> ·
   <a href="#-getting-started">Getting Started</a> ·
-  <a href="#-ugf-integration">UGF Integration</a> ·
-  <a href="#-deployment">Deployment</a>
+  <a href="#-ugf-integration">UGF Integration</a>
 </p>
 
 ---
 
-## 🌐 Live Demo
+# 🌐 Live Demo
 
-🔗 **Frontend:** `https://holytrinity.vercel.app`
-🔗 **UGF SCAN:** `https://scan.universalgasframework.com`
-🔗 **Network:** Base Sepolia Testnet
+🔗 **Frontend:** `https://gaslessbadge.vercel.app`  
+🔗 **UGF SCAN:** `https://scan.universalgasframework.com`  
+🔗 **Network:** Base Sepolia Testnet  
 
-> ⚠️ HolyTrinity runs on Base Sepolia. Users can mint NFT badges without needing ETH by paying gas through UGF using Mock USD.
+> ⚠️ This project runs entirely on Base Sepolia testnet. Users mint NFT badges without ETH using Universal Gas Framework (UGF).
 
 ---
 
-## 🎯 Project Vision
+# 🎯 Problem Statement
 
-Web3 onboarding is still difficult for most users.
-
-Traditional dApps require:
+Most Web3 applications still suffer from one major issue:
 
 ```txt
-• Wallet setup
-• Testnet ETH
-• Complex blockchain interactions
-• Gas fee understanding
-• Network switching
+New users cannot easily interact with blockchain apps.
 ```
 
-HolyTrinity removes these barriers completely.
+Traditional onboarding requires:
 
-With HolyTrinity:
+- Setting up MetaMask
+- Buying ETH
+- Understanding gas fees
+- Switching blockchain networks
+- Handling failed transactions
 
-* ✅ Users connect their wallet
-* ✅ Enter their name
-* ✅ Mint a personalized NFT badge
-* ✅ Pay gas using Mock USD via UGF
-* ✅ No ETH required
-* ✅ Fully on-chain metadata and SVG generation
-
-The goal is to make blockchain interactions feel as smooth as modern Web2 applications.
+For events, hackathons, and onboarding campaigns, this creates unnecessary friction.
 
 ---
 
-## ✨ Features
+# 💡 Solution
 
-### Core Features
+Gasless Badge solves this by enabling:
 
-* 🔥 **Gasless NFT Minting** — users mint without ETH
-* 🎨 **On-Chain SVG Badges** — dynamic NFT art generated onchain
-* ⚡ **Base Sepolia Powered** — low-cost and fast L2 transactions
-* 🦊 **Wallet Integration** — MetaMask & WalletConnect support via Reown AppKit
-* 🌌 **Modern UI/UX** — glassmorphism, particle animations, smooth transitions
-* 📱 **Fully Responsive** — optimized for desktop and mobile
-* 🚀 **Vercel Ready** — one-click deployment setup
+- ✅ Gasless NFT minting
+- ✅ Zero ETH requirement
+- ✅ Simple wallet onboarding
+- ✅ Fully on-chain NFT metadata
+- ✅ Beautiful personalized event badges
+- ✅ Modern Web2-like UX for Web3 users
 
-### Technical Features
-
-* 🔗 UGF gas abstraction integration
-* 📦 Modular React component architecture
-* ⚙️ Solidity smart contract support
-* 🎉 Animated mint success screen
-* 🧠 Live NFT preview generation
-* 🔐 Secure blockchain interaction using ethers.js v6
-
----
-
-## 📁 Project Structure
+Users simply:
 
 ```txt
-HolyTrinity-main/
+Connect Wallet
+      ↓
+Enter Name
+      ↓
+Click "Claim Badge"
+      ↓
+Approve Mock USD via UGF
+      ↓
+NFT Badge Minted Instantly
+```
+
+---
+
+# ✨ Features
+
+## 🎨 NFT Features
+
+- Personalized NFT badges
+- Fully on-chain SVG artwork
+- Dynamic NFT metadata generation
+- ERC721 standard implementation
+- Real-time badge preview
+- Event-ready minting flow
+
+## ⚡ Blockchain Features
+
+- Gasless transactions using UGF
+- Base Sepolia integration
+- Mock USD gas payments
+- Secure ethers.js interactions
+- Reown AppKit wallet support
+
+## 🖥️ UI/UX Features
+
+- Futuristic glassmorphism design
+- Particle animated background
+- Smooth Framer Motion animations
+- Responsive mobile-first interface
+- Dark mode aesthetics
+- Animated mint success screen
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+
+| Technology | Purpose |
+|---|---|
+| React 18 | UI framework |
+| Vite 5 | Build tool |
+| Tailwind CSS | Styling |
+| Framer Motion | Animations |
+| React Icons | Icons |
+| React Hot Toast | Notifications |
+
+## Blockchain
+
+| Technology | Purpose |
+|---|---|
+| Solidity 0.8.24 | Smart contract language |
+| OpenZeppelin | ERC721 implementation |
+| ethers.js v6 | Blockchain interaction |
+| Base Sepolia | Testnet blockchain |
+
+## Wallet & Gas
+
+| Technology | Purpose |
+|---|---|
+| Reown AppKit | Wallet connection |
+| Universal Gas Framework (UGF) | Gas abstraction |
+| Mock USD | Gas payment currency |
+
+---
+
+# 📁 Project Structure
+
+```txt
+Gasless-Badge/
 │
 ├── 📁 contracts/
-│   ├── EventBadge.sol              # ERC721 NFT smart contract
-│   ├── hardhat.config.js           # Hardhat configuration
-│   ├── package.json                # Smart contract dependencies
-│   ├── .env.example                # Contract environment template
+│   ├── EventBadge.sol
+│   ├── hardhat.config.js
+│   ├── package.json
+│   ├── .env.example
 │   └── 📁 scripts/
-│       └── deploy.js               # Deployment script
+│       └── deploy.js
 │
 ├── 📁 public/
-│   └── badge.svg                   # Static badge asset
+│   └── badge.svg
 │
 ├── 📁 src/
 │   ├── 📁 components/
-│   │   ├── Navbar.jsx              # Top navigation bar
-│   │   ├── Hero.jsx                # Landing page hero section
-│   │   ├── ClaimBadge.jsx          # NFT minting form
-│   │   ├── BadgePreview.jsx        # Real-time badge preview
-│   │   ├── MintSuccess.jsx         # Success animation screen
-│   │   ├── ParticleBackground.jsx  # Animated particle background
-│   │   └── Footer.jsx              # Footer section
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── ClaimBadge.jsx
+│   │   ├── BadgePreview.jsx
+│   │   ├── MintSuccess.jsx
+│   │   ├── ParticleBackground.jsx
+│   │   └── Footer.jsx
 │   │
 │   ├── 📁 config/
-│   │   ├── appkit.js               # Reown AppKit configuration
-│   │   └── contract.js             # ABI and contract configuration
+│   │   ├── appkit.js
+│   │   └── contract.js
 │   │
 │   ├── 📁 hooks/
-│   │   └── useMintBadge.js         # UGF minting logic
+│   │   └── useMintBadge.js
 │   │
-│   ├── App.jsx                     # Root application component
-│   ├── main.jsx                    # Application entry point
-│   └── index.css                   # Global styles & Tailwind setup
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
 │
-├── .env.example                    # Frontend environment variables
+├── .env.example
 ├── package.json
 ├── vite.config.js
 ├── tailwind.config.js
@@ -135,29 +192,27 @@ HolyTrinity-main/
 
 ---
 
-## 🚀 Getting Started
+# 🚀 Getting Started
 
-### Prerequisites
+## Prerequisites
 
-Before running the project, make sure you have:
-
-* Node.js v18+
-* npm or yarn
-* MetaMask browser extension
-* Base Sepolia network configured
+- Node.js v18+
+- npm or yarn
+- MetaMask browser extension
+- Base Sepolia configured
 
 ---
 
-### 1️⃣ Clone the Repository
+## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/HolyTrinity.git
-cd HolyTrinity-main
+git clone https://github.com/yourusername/gasless-badge.git
+cd gasless-badge
 ```
 
 ---
 
-### 2️⃣ Install Dependencies
+## 2️⃣ Install Dependencies
 
 ```bash
 npm install
@@ -165,15 +220,11 @@ npm install
 
 ---
 
-### 3️⃣ Configure Environment Variables
-
-Create a `.env` file:
+## 3️⃣ Configure Environment Variables
 
 ```bash
 copy .env.example .env
 ```
-
-Add your values:
 
 ```env
 VITE_REOWN_PROJECT_ID=your_project_id
@@ -181,24 +232,14 @@ VITE_CONTRACT_ADDRESS=0xYourContractAddress
 VITE_RPC_URL=https://sepolia.base.org
 ```
 
-### Get Reown Project ID
-
-1. Visit `https://cloud.reown.com`
-2. Create a project
-3. Copy the generated Project ID
-4. Paste it into `.env`
-
 ---
 
-### 4️⃣ Deploy Smart Contract
+## 4️⃣ Deploy Smart Contract
 
 ```bash
 cd contracts
 npm install
-copy .env.example .env
 ```
-
-Update `contracts/.env`:
 
 ```env
 PRIVATE_KEY=your_private_key
@@ -211,14 +252,11 @@ Deploy:
 npm run deploy
 ```
 
-Copy the deployed contract address into your frontend `.env`.
-
 ---
 
-### 5️⃣ Run the Application
+## 5️⃣ Start Development Server
 
 ```bash
-cd ..
 npm run dev
 ```
 
@@ -230,235 +268,36 @@ http://localhost:5173
 
 ---
 
-## 🦊 MetaMask Setup
-
-### Add Base Sepolia Network
-
-| Field           | Value                          |
-| --------------- | ------------------------------ |
-| Network Name    | Base Sepolia                   |
-| RPC URL         | `https://sepolia.base.org`     |
-| Chain ID        | `84532`                        |
-| Currency Symbol | `ETH`                          |
-| Block Explorer  | `https://sepolia.basescan.org` |
-
----
-
-## 🔧 Smart Contract
-
-The `EventBadge.sol` smart contract:
-
-* Mints personalized ERC721 NFT badges
-* Stores metadata fully on-chain
-* Generates SVG artwork dynamically
-* Emits minting events
-* Works seamlessly with UGF gas abstraction
-
-### Core Function
-
-```solidity
-function claimBadge(string memory name) public {
-    // Mint personalized NFT badge
-}
-```
-
----
-
-## ⛽ UGF Integration
-
-HolyTrinity uses the Universal Gas Framework (UGF) to abstract away blockchain gas fees.
-
-### Gasless Minting Flow
+# ⛽ UGF Integration
 
 ```txt
-User Connects Wallet
+User clicks Claim Badge
         ↓
-Enters Name
+UGF modal opens
         ↓
-Clicks "Claim Badge"
+Gas quoted in Mock USD
         ↓
-UGF Modal Opens
+User approves transaction
         ↓
-Gas Paid in Mock USD
+UGF handles blockchain gas
         ↓
-Transaction Sent on Base Sepolia
-        ↓
-NFT Badge Minted Successfully
-```
-
-### Example Integration
-
-```javascript
-const result = await openUGF({
-  signer,
-  tx: {
-    to: CONTRACT_ADDRESS,
-    data: encodedCallData,
-    value: 0n,
-  },
-  destChainId: "84532",
-});
+NFT minted successfully
 ```
 
 ---
 
-## 🎨 UI & Design
-
-HolyTrinity focuses heavily on futuristic Web3 aesthetics.
-
-### Design Highlights
-
-* 🌌 Particle animated backgrounds
-* 🪟 Glassmorphism effects
-* ✨ Smooth Framer Motion transitions
-* 🌙 Dark-themed interface
-* ⚡ Real-time NFT preview rendering
-* 🎉 Confetti success animations
-
----
-
-## 🛠️ Tech Stack
-
-### Frontend
-
-| Technology      | Purpose        |
-| --------------- | -------------- |
-| React 18        | UI framework   |
-| Vite 5          | Build tool     |
-| Tailwind CSS    | Styling system |
-| Framer Motion   | Animations     |
-| React Hot Toast | Notifications  |
-| React Icons     | Icon library   |
-
-### Blockchain
-
-| Technology      | Purpose                 |
-| --------------- | ----------------------- |
-| Solidity 0.8.24 | Smart contract language |
-| ethers.js v6    | Blockchain interaction  |
-| OpenZeppelin    | ERC721 implementation   |
-| Base Sepolia    | Blockchain network      |
-
-### Wallet & Gas
-
-| Technology    | Purpose              |
-| ------------- | -------------------- |
-| Reown AppKit  | Wallet connection    |
-| UGF React SDK | Gas abstraction      |
-| Mock USD      | Gas payment currency |
-
----
-
-## 🚢 Deployment
-
-### Deploy to Vercel
-
-Install Vercel CLI:
+# 🚢 Deployment
 
 ```bash
 npm install -g vercel
-```
-
-Deploy:
-
-```bash
 vercel
 ```
 
-Or connect the GitHub repository directly to Vercel.
-
-### Environment Variables for Deployment
-
-```env
-VITE_REOWN_PROJECT_ID=
-VITE_CONTRACT_ADDRESS=
-VITE_RPC_URL=
-```
-
 ---
 
-## 🐛 Troubleshooting
+# 📄 License
 
-| Issue                    | Solution                               |
-| ------------------------ | -------------------------------------- |
-| Wallet not connecting    | Refresh browser and reconnect MetaMask |
-| UGF modal not opening    | Ensure UGF packages are installed      |
-| Invalid network          | Switch to Base Sepolia                 |
-| Missing Project ID       | Add `VITE_REOWN_PROJECT_ID` in `.env`  |
-| Mint transaction failing | Ensure contract address is correct     |
-| Vercel build failure     | Check environment variables            |
-
----
-
-## 📋 Available Commands
-
-```bash
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Create production build
-npm run build
-
-# Preview production build
-npm run preview
-```
-
----
-
-## 🧪 Testing Flow
-
-1. Connect MetaMask
-2. Switch to Base Sepolia
-3. Get Mock USD from UGF faucet
-4. Enter your name
-5. Click “Claim Badge”
-6. Approve gas payment via UGF
-7. NFT badge is minted instantly
-8. View NFT inside your wallet
-
----
-
-## 📚 Resources
-
-| Resource          | Link                                                                             |
-| ----------------- | -------------------------------------------------------------------------------- |
-| UGF Documentation | [https://universalgasframework.com/docs](https://universalgasframework.com/docs) |
-| Base Sepolia      | [https://sepolia.basescan.org](https://sepolia.basescan.org)                     |
-| Reown Cloud       | [https://cloud.reown.com](https://cloud.reown.com)                               |
-| Remix IDE         | [https://remix.ethereum.org](https://remix.ethereum.org)                         |
-| Vercel            | [https://vercel.com](https://vercel.com)                                         |
-
----
-
-## 🗺️ Future Improvements
-
-* [ ] Multi-event badge collections
-* [ ] Dynamic rarity system
-* [ ] NFT metadata upgrades
-* [ ] Mainnet deployment
-* [ ] Wallet analytics dashboard
-* [ ] QR-based badge verification
-* [ ] IPFS backup support
-* [ ] Event organizer dashboard
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-## 🙏 Acknowledgements
-
-* UGF & TychiLabs for gas abstraction technology
-* Base by Coinbase for scalable L2 infrastructure
-* Reown for wallet connectivity solutions
-* OpenZeppelin for secure ERC standards
-* Vercel for deployment infrastructure
+Licensed under the MIT License.
 
 ---
 
