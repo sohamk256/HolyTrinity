@@ -28,7 +28,7 @@ Gasless Badge is a modern Web3 event badge platform that allows users to mint fu
 # 🌐 Live Demo
 
 🔗 **Deployed App Link:** `https://holy-trinity-sandy.vercel.app/`  
-🔗 **UGF SCAN:** `https://scan.universalgasframework.com`  
+🔗 **UGF SCAN:** `https://universalgasframework.com/docs/overview`  
 🔗 **Network:** Base Sepolia Testnet  
 
 > ⚠️ This project runs entirely on Base Sepolia testnet. Users mint NFT badges without ETH using Universal Gas Framework (UGF).
