@@ -293,13 +293,6 @@ npm install -g vercel
 vercel
 ```
 
----
-
-# 📄 License
-
-Licensed under the MIT License.
-
----
 
 <p align="center">
   Built with ❤️ using React, Solidity, UGF & Base Sepolia
